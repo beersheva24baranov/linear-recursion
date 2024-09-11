@@ -30,7 +30,7 @@ public class RecursionMethodsTests {
 
     @Test
     void squareTest() {
-        assertEquals(16, square(4));
+        assertEquals(64, square(8));
         assertEquals(100, square(-10));
         assertEquals(0, square(0));
     }
